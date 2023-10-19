@@ -10,12 +10,9 @@ def binary_search(nums, val, find_left=True):
         else:
             r = mid - 1
 
-    # If the value is not found and we are looking for the left index,
-    # return the index to the right.
+    
     if find_left:
         return l
-    # If the value is not found and we are looking for the right index,
-    # return the index to the left.
     else:
         return l - 1 if l > 0 else 0
 
