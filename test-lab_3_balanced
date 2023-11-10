@@ -1,5 +1,5 @@
 import unittest
-from lab4 import *
+from lab3 import *
 
 class TestIsBalanced(unittest.TestCase):
     def test_balanced_tree(self):
